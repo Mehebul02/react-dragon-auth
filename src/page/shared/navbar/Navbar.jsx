@@ -1,9 +1,10 @@
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navLink = <>
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Career</a></li>
+    <li><NavLink to='/'>Home</NavLink></li>
+    <li><NavLink to='/about'>About</NavLink></li>
+    <li><NavLink to='/career'>Career</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
