@@ -2,7 +2,7 @@
 const LeftSideNav = () => {
     return (
         <div>
-            <h1>Left Side Nav</h1>
+            <h1>All Caterogy</h1>
         </div>
     );
 };
