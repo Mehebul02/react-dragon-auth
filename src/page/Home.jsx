@@ -21,7 +21,7 @@ const Home = () => {
                 <h1>News is Coming....</h1>
 
             </div>
-            <div className="border">
+            <div >
                 <RightSide/>
 
             </div>
