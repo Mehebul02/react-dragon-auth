@@ -6,6 +6,8 @@ import Roots from "../layout/Roots";
 import Home from "../page/Home";
 import About from "../page/about/About";
 import Career from "../page/career/Career";
+import Login from "../page/login/Login";
+import Register from "../page/register/Register";
   const router = createBrowserRouter([
     {
       path: "/",
@@ -24,6 +26,15 @@ import Career from "../page/career/Career";
             path:'/career',
             element:<Career/>
         },
+        {
+          path:'/register',
+          element:<Register/>
+
+        },
+        {
+          path:'/login',
+          element:<Login/>
+        }
       ]
     },
   ]);
